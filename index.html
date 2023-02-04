@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Home</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+            position: absolute;
+            bottom: 232px;
+            left: 114px;
+        }
+
+        .bottom-left1 {
+            position: absolute;
+            bottom: 152px;
+            left: 114px;
+        }
+
+        .container .btn {
+            position: absolute;
+            top: 83%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .container .btn:hover {
+            background-color: antiquewhite;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font" style="background-color:aliceblue">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <nav class="navbar sticky-top navbar-light bg-light">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <a href="jordan.html"><img src="https://upload.wikimedia.org/wikipedia/en/3/37/Jumpman_logo.svg"
+                            alt="Jordan" style="width: 10%;height: 10%; background-color: aliceblue;"></a>
+                </a>
+            </nav>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-5 hover:text-red-900" style="color:black;">Find a Store</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color:black;">Help</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color:black;">Join Us</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color:black;">Sign in</a>
+            </nav>
+        </div>
+    </header>
+    <header class="text-gray-600 body-font" style="background-color:white">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <a href="nike.html"><img
+                        src="https://cdn.shopify.com/s/files/1/0133/3795/2320/products/nikedrippingswoosh_600x.png?v=1607855251"
+                        alt="Nike" style="width: 10%;height: 10%; background-color: white"></a>
+            </a>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">Men</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">Woman</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">Kids</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">Customize</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">Sale</a>
+                <a href="#" class="mr-5 hover:text-red-900" style="color: black;">SNKRS</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search"
+                            style="background-color: aliceblue;vertical-align: top;">
+                        <button type="submit"><img
+                                src="https://i.pinimg.com/originals/4e/62/f8/4e62f8f19f778771c09fc2597dac21d6.gif"
+                                alt="Search" style="width: 30px;background: black;border-color: black;"></button>
+                    </form>
+                </div>
+                <a href="#"
+                    style="padding: 0px 0px;width: 22px;border-radius: 169px;float: right;margin: 0px 23px;"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdx0Q2CBr5oe8FLIZt3RxLX5Q0Q8YoJ2FqTkDglCrfszoJBxCV83QBalxceT_Rh-BTmH8&usqp=CAU"
+                        alt="Fav"></a>
+                <a href="#"
+                    style="padding: 0px 0px;width: 30px;border-radius: 169px;float: right;margin: 0px 23px;"><img
+                        src="https://media.istockphoto.com/id/1333128639/vector/shopping-cart-sketch.jpg?s=170667a&w=0&k=20&c=0Y9l_2UvCssJUHI3Rd0V0K7uaJAwW85SLYcqalO14PM="
+                        alt="Cart"></a>
+
+            </nav>
+
+        </div>
+    </header>
+    <br>
+    <p style="text-align: center;">Nike Invencible</p>
+    <a href="#">
+        <p style="text-align: center; font-size: 50px;"><strong>FEEL IT TO BELIEVE IT</strong></p>
+    </a>
+    <a href="#">
+        <p style="text-align: center;">Introducing lightweight ZoomX cushioning through every mile—run in the Nike
+            Invincible 3.</p>
+    </a>
+    <br>
+    <button class="button button1" style="color: white;
+    background: black;
+    border-radius: 4px;
+    padding: 0px 10px;
+    /* align-items: center; */
+    margin-left: 50%;">Shop</button>
+    <br>
+    <br>
+    <h1>
+        <p style="font-size:x-large;padding: 0px 36px;">Shop Nike Tennis</p>
+    </h1>
+    <br>
+
+    <section class="text-gray-600 body-font">
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="1.jpg"
+                        style="margin: 0px 43px;">
+                </div>
+                <p style="text-align: right; "><span>&#36;</span>120</p>
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5" style="margin: 6px 74px;">Nike Air Zoom
+                    Pro </h2>
+                <p class="text-base leading-relaxed mt-2" style="margin: 0px 72px;">Woman's Hard Court Tannis Shoes</p>
+            </div>
+            <a href="#">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="2.jpg">
+                    </div>
+                    <p style="text-align: right; "><span>&#36;</span>205</p>
+                    <h2 class="text-xl font-medium title-font text-gray-900 mt-5">NikeCourt Air Zoom Vapor Pro 2 </h2>
+                    <p class="text-base leading-relaxed mt-2">Man's Hard Court Tannis Shoes</p>
+            </a>
+        </div></a>
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="3.jpg"
+                    style="padding: 0px 0px;margin: 0px -30px;">
+            </div>
+            <p style="text-align: right;margin: 0px 39px; "><span>&#36;</span>105</p>
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">NikeCourt Air Zoom Lite 3 </h2>
+            <p class="text-base leading-relaxed mt-2">Man's Hard Court Tannis Shoes</p>
+        </div>
+        </div>
+        </div>
+    </section>
+    <br><br>
+    <h1>
+        <p style="font-size:x-large;padding: 0px 36px;">Featured</p>
+    </h1>
+    <a href="#"><img src="nike-just-do-it.jpg" alt="Nike Just Do it" style="padding: 0px 36px;width:100%;"></a>
+    <br><br>
+    <a href="#">
+        <p style="text-align: center; font-size: 50px;"><strong>JORDAN X PARIS SAINT-GARMAIN</strong></p>
+    </a>
+    <a href="#">
+        <p style="text-align: center;">The New Jordan X Paris Saint Garmain Collection Draws on the light that Paris
+            shines on the world stage</p>
+    </a>
+    <br>
+    <button class="button button1" style="color: white;
+    background: black;
+    border-radius: 4px;
+    padding: 0px 10px;
+    /* align-items: center; */
+    margin-left: 50%;">Shop</button>
+    <br><br>
+    <h1>
+        <p style="font-size:x-large;padding: 0px 36px;">The Latest</p>
+    </h1>
+    <br>
+    <div class="container">
+        <img src="pp.jpg" alt="Snow" style="padding: 0px 36px;width:100%;">
+        <div class="bottom-left" style="font-size:x-large">Nike Air Delon 'Delon Designs'</div>
+        <div class="bottom-left1" style="font-size: 65px;"><b>IT'S ON</b></div>
+        <button class="btn">Shop</button>
+    </div>
+    <br>
+    <h1>
+        <p style="font-size:x-large;padding: 0px 36px;">Trending</p>
+    </h1>
+    <div class="container">
+        <img src="fe.jpg" alt="Treanding" style="padding: 0px 36px;width:100%;">
+
+    </div>
+    <br>
+    <a href="#">
+        <p style="text-align: center; font-size: 50px;"><strong>BOLD BEGINNINGS</strong></p>
+    </a>
+    <a href="#">
+        <p style="text-align: center;">Introducing The Alate sports Bra, a Nutural fit for the first-time bra wearers
+        </p>
+    </a>
+    <br>
+    <button class="button button1" style="color: white;
+    background: black;
+    border-radius: 4px;
+    padding: 0px 10px;
+    /* align-items: center; */
+    margin-left: 50%;">Shop</button>
+    <br><br>
+    <h1>
+        <p style="font-size:x-large;padding: 0px 36px;">More like</p>
+    </h1>
+    <br>
+    <div class="row">
+        <div class="column">
+            <img src="nike-just-do-it (1).jpg" alt="Men" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="woman.jpg" alt="Woman" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="nike-just-do-it (2).jpg" alt="kids" style="width:100%">
+        </div>
+    </div>
+
+    <br>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+                    <h2
+                        class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+                        <b>Icons</b> </h2>
+                    <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                        <a href="#">
+                            <p style="color: black;">Air Force 1</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Huracache</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Air Max 90</p>
+
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Air Max 95</p>
+                        </a>
+
+                    </nav>
+                </div>
+                <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+                    <h2
+                        class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+                        <b>Shoes</b> </h2>
+                    <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                        <a href="#">
+                            <p style="color: black;">All Shoes</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Custom Shoes</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Jordan Shoes</p>
+
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Running Shoes</p>
+                        </a>
+                    </nav>
+                </div>
+                <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+                    <h2
+                        class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+                        <b>Clothing</b> </h2>
+                    <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                        <a href="#">
+                            <p style="color: black;">All Clothing</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;"> Moderate wear</p>
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Hoodies and Pullovers</p>
+
+                        </a>
+                        <a href="#">
+                            <p style="color: black;">Shirts and tops</p>
+                        </a>
+                    </nav>
+                </div>
+                <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+                    <h2
+                        class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+                        <b>Kids'</b> </h2>
+                    <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                        <a>
+                            <a href="#">
+                                <p style="color: black;">Infant & Toddler Shoes</p>
+                            </a>
+                            <a href="#">
+                                <p style="color: black;">Kids' Shoes</p>
+                            </a>
+                            <a href="#">
+                                <p style="color: black;">Kids' Jordan Shoes</p>
+
+                            </a>
+                            <a href="#">
+                                <p style="color: black;">Kids' Basketball Shoes</p>
+                            </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="text-gray-600 body-font" style="background-color: black;">
+    <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png"
+                        alt="Facebook" width="10%"></a>
+                <a href="#"><img
+                        src="data:image/png;base64,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"
+                        alt="INstagram" width="10%" style="margin: -24px 49px;"></a>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JRK7HAdmgClTFe2JL7qQva67Xp_TdqRDng&usqp=CAU" alt="Twitter"  width="10%" style="margin: -24px 99px;"></a>
+
+        </div>
+        <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;">
+                    <b>FIND A STORE</b></h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800"><b>BECOME A MEMBER</b> </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800"><b>SIGN UP FOR EMAIL</b> </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800"><b>STUDENT DISCOUNTS</b> </a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800"><b>SEND US FEEDBACK</b> </a>
+                    </li>
+                </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;">GET
+                    HELP</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Order Status</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Delivery</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Returns</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Payment Options</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style="color: white;">
+                    <b>ABOUT NIKE</b></h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">News</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Careers</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Investors</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Sustainability</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 Nike clone —
+                <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                    target="_blank">@loser</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+</html>
